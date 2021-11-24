@@ -67,16 +67,7 @@ First, HTML itself stands for Hypertext Markup Language. I've already talked abo
 I may have mentioned the Hypertext Transport Protocol, or HTTP. This is the method by which we exchange these HTML documents. 
 We have a document on a particular computer, and we want somebody in a browser on a different computer to be able to view it. 
 
-They need to use HTTP to request that document and receive it back in their browser. I'll mention the URI and a URL interchangeably, and these are simply addresses. If you think about going into your browser and typing Pluralsight.com or you go in and type in your favorite social network, that is an address or a Universal Resource Identifier or Resource Locator.
-
-When we talk about a single HTML document, there are pieces of that address that indicate the server where that document resides, the folders, and the name of the file. And we'll talk more about that especially as we talk about linking documents together
-They need to use HTTP to request that document and receive it back in their browser. I'll mention the URI and a URL interchangeably, and these are simply addresses. If you think about going into your browser and typing Pluralsight.com or you go in and type in your favorite social network, that is an address or a Universal Resource Identifier or Resource Locator.
-
-
-
-Within the function, we first declare the `name` variable with the `var` keyword. This means that the variable gets hoisted (memory space is set up during the creation phase) with the default value of `undefined`, until we actually get to the line where we define the variable. We haven't defined the variable yet on the line where we try to log the `name` variable, so it still holds the value of `undefined`.
-
-Variables with the `let` keyword (and `const`) are hoisted, but unlike `var`, don't get <i>initialized</i>. They are not accessible before the line we declare (initialize) them. This is called the "temporal dead zone". When we try to access the variables before they are declared, JavaScript throws a `ReferenceError`.
+They need to use HTTP to request that document and receive it back in their browser. I'll mention the URI and a URL interchangeably, and these are simply addresses. 
 
 </p>
 </details>
