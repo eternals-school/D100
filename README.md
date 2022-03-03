@@ -8,11 +8,10 @@
 <span>This course is created as on <a href=#><b>Nov 24th</b></a>
 </span>
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/eternals-school/D100)
+<!-- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/eternals-school/D100) -->
 
 </div>
 
-| Prerequesites of this project need to be discussed  |
 
 ---
 ## Contents
