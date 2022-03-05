@@ -18,10 +18,17 @@
 
 + Course Overview
 + HTML Documents
+  - DOCTYPE, Document, DOM, BOM
   - HTML - know it
   - HTML Documents
+  - Meta tags and SEO
   - The Head Element
   - The Body Element
+  - Tags: Scripts, Styles, Links
++ HTML Elements
+  - Semantic/non-semantic elements
+  - ID/ class/ inline-styles/ attributes
+  - Block/inline elements
 + Displaying Text
   - Basic Text
   - Text Breaking and Whitespace
@@ -39,15 +46,18 @@
   - HTML Tables
   - Spanning Columns and Rows
   - Formatting Tables
-+ Form & Multimedia Elements
++ Forms
   - Form Inputs
-  - Image Elements
-  - Multimedia elements
-+ GLobal attirbutes
+  - Form Specific elements(fieldset, dd, dt, label, submit)
++ Multimedia Elements
+  - Image
+  - Video/Audio
++ Global attirbutes
 + Storage
   - Local Storage
-  - Session Strorage
+  - Session Storage
   - IndexdDB
+  - Cookies
 + Web workers
   - Know it
   - How it works
@@ -64,16 +74,23 @@
 + Ellective/If possible
   - Canvas
   - Web GL
+  - SVG
 
 ---
++ Basics
+  - Width
+  - Height
+  - Padding
+  - Margin
 + CSS Selector
   - Basic
   - Advanced
-  - Psuedo
+  - Pseudo
 + Scopes
   - Specificity
   - Inheritance
   - Generated content
+  - Float (left, right, clear, both)
 + Box Model
   - CSS units
   - Positioning
@@ -91,7 +108,7 @@
   - Grid positioning
   - Challenges
 + Content
-  - Colours & Gradients
+  - Colors & Gradients
   - Fonts
   - Text effects
 + Effects
@@ -116,14 +133,14 @@
 </p>
 </details>
 
-<details><summary><b>Who should take this course</b></summary>
+<details><summary><b>Who should take this course?</b></summary>
 <p>
-Anyone who has started/new with leass than 1 years of experience in fornt-end carreer
+Anyone who has started/new with less than 1 year of experience in front-end career
 </p>
 </details>
 
-<details><summary><b>What you can expect out of this course</b></summary>
+<details><summary><b>What you can expect out of this course?</b></summary>
 <p>
-You will get a striong understanding about the basics and a verry good application directed thinking skill
+You will get a striong understanding about the basics and a very good application directed thinking skill
 </p>
 </details>
