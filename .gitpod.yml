@@ -3,3 +3,10 @@ tasks:
       echo 'TODO: build project'
     command: |
       echo 'TODO: start app'
+github:
+  prebuilds:
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: false
+    addBadge: true

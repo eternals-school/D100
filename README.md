@@ -21,10 +21,13 @@
   - DOCTYPE, Document, DOM, BOM
   - HTML - know it
   - HTML Documents
-  - Meta tags and SEO
   - The Head Element
+  - Head Tags 
+    - Scripts
+    - Styles
+    - Links
+    - Meta tags and SEO
   - The Body Element
-  - Tags: Scripts, Styles, Links
 + HTML Elements
   - Semantic/non-semantic elements
   - ID/ class/ inline-styles/ attributes
