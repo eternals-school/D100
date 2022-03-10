@@ -144,6 +144,6 @@ Anyone who has started/new with less than 1 year of experience in front-end care
 
 <details><summary><b>What you can expect out of this course?</b></summary>
 <p>
-You will get a striong understanding about the basics and a very good application directed thinking skill
+You will get a strong understanding about the basics and a very good application directed thinking skill
 </p>
 </details>
