@@ -5,7 +5,7 @@
   <img height="60" src="https://img.icons8.com/color/48/000000/css3.png"/>
   <h1>HTML & CSS</h1>
 
-<span>This course is created as on <a href=#><b>Nov 24th</b></a>
+<span>This course is Started for 2010D1011003_2 on <a href=#><b>Mar 21th</b></a>
 </span>
 
 <!-- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/eternals-school/D100) -->
@@ -16,22 +16,22 @@
 ---
 ## Contents
 
-+ Course Overview
-+ HTML Documents
++ [x] Course Overview
++ [x] HTML Documents
   - DOCTYPE, Document, DOM, BOM
-  - HTML - know it
-  - HTML Documents
-  - The Head Element
-  - Head Tags 
-    - Scripts
-    - Styles
-    - Links
-    - Meta tags and SEO
-  - The Body Element
+  - [x] HTML - know it
+  - [x] HTML Documents
+  - [x] The Head Element
+  - [x] Head Tags 
+    - [x] Scripts
+    - [x] Styles
+    - [x] Links
+    - [x] Meta tags and SEO
+  - [x] The Body Element
 + HTML Elements
-  - Semantic/non-semantic elements
+  - [x] Semantic/non-semantic elements
   - ID/ class/ inline-styles/ attributes
-  - Block/inline elements
+  - [x] Block/inline elements
 + Displaying Text
   - Basic Text
   - Text Breaking and Whitespace
