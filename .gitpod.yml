@@ -1,8 +1,7 @@
 tasks:
   - init: |
-      echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
+      echo 'Setting UP D100'
+    command: npx -y serve
 github:
   prebuilds:
     branches: true
