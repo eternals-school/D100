@@ -15,6 +15,9 @@ body {
   border: 1px solid;
 }
 /* Structure CSS */
+.flex_column {
+  flex-direction: column;
+}
 .row_1{
   display: flex;
   margin-bottom: 10px;
