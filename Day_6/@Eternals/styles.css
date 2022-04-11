@@ -1,12 +1,30 @@
-.box_1 {
-  width: 100px;
-  height: 100px;
-  background: aqua;
-  border: 1px solid;
-  margin: 10px;
+/* Layout CSS */
+body {
+  padding: 15px;
 }
-.container {
-    width: 700px;
-    height: 600px;
-    background: antiquewhite;
+/* Box CSS */
+.box_1 {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid;
+}
+.box_2 {
+  width: 400px;
+  height: 550px;
+  border: 1px solid;
+}
+/* Structure CSS */
+.flex_column {
+  flex-direction: column;
+}
+.row_1{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.row_2{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
 }
