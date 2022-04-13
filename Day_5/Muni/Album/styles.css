@@ -1,0 +1,29 @@
+.navbar{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+
+};
+.container>div{
+    border: 1px solid;
+    margin:auto ;
+    width: 600px;
+};
+.icon
+    width: 50px;
+    height: 25px;
+    border: 10px;
+};
+.navbar ul{
+    display: flex;
+    border: 5px;
+
+};
+.navbar ul li {
+    width:50px;
+    height:25px;
+    border:20px;
+
+};
+
