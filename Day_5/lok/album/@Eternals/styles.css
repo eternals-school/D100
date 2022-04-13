@@ -1,0 +1,48 @@
+.navbar{
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+
+}
+
+.left-nav{
+    
+    border: 2px solid;
+    
+    width: 700px ;
+    background-color: rgb(85, 79, 79);
+}
+
+.right-nav{
+    border: 2px solid;
+    width: 700px;
+    background-color: rgb(85, 79, 79);
+
+
+}
+
+.banner {
+    border: 2px solid;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 99, 192);
+    
+
+}
+
+.ban-title {
+    border: 2px solid;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16, 13, 192);
+
+}
