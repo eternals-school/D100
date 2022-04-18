@@ -1,0 +1,54 @@
+
+/* continer*/
+
+
+
+/* nav */
+/* nav elements */
+/* top banner */
+/* mid icons */
+/* quote */
+/* cards */
+/* fotter */
+/*  */
+
+.nav{
+    height: 40px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.nav-elements{
+    height: 30px;
+    width: 10px;
+}
+
+
+.cards{
+    height: 500px;
+    width: 100px;
+}
+
+.cards-img{
+    height: 70px;
+    width: 100px;
+}
+
+.cards-blog{
+    padding: 10px;
+
+}
+.cards-profile{
+    height: 5px;
+}
+
+.footer{
+    height: 70px;
+    
+
+}
+
+.foot-email{
+    height: 5px;
+    width: 100px;
+}

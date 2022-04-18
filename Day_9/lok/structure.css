@@ -1,0 +1,33 @@
+
+.center-page{
+    padding: 10px;
+}
+.padding-sides{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.border{
+    border: 2px solid;
+}
+
