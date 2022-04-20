@@ -1,0 +1,57 @@
+
+.padding-side {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.padding-center-text {
+    padding: 10px;
+}
+.padding {
+    padding: 20px;
+}
+.margin-top {
+    margin-top:60px;
+}
+.margin-gap {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.centre_page {
+    width: 1200px;
+    margin: auto;
+}
+.justify-center {
+    justify-content: center;
+}
+.space_between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+.flex_left {
+    display: flex;
+    justify-content: left;
+}
+.flex_right {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+/* continer*/
+
+
+/* top banner */
+/* nav */
+/* nav elements */
+/* features panel */
+/* icons */
+/* quote */
+/* cards */
+/* email */
+/* fotter */
+/* general */
