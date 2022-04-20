@@ -1,0 +1,64 @@
+/* structure */
+* {
+  background: antiquewhite;
+}
+.centered-page {
+  width: 700px;
+  max-width: 100%;
+  margin: auto;
+  border: 1px solid;
+  padding: 10px;
+  align-items: center;
+}
+
+
+/* properties */
+.bg_blue {
+  background: blueviolet;
+}
+.container_bordered {
+  border: 1px solid;
+  padding: 10px;
+}
+.padding_small {
+  padding: 20px;
+}
+.section_margin_bottom {
+  margin-bottom: 20px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex_centered {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* elements */
+.button_wide {
+  width: 50px;
+  margin: 10px;
+}
+.navbar-items {
+  height: 10px;
+  width: 30px;
+}
+.footer-items {
+  width: 20px;
+}
+.image_inline {
+  width: 190px;
+  height: 100px;
+  background-color: grey;
+}
+.quotes {
+  text-align: center;
+}
+.card {
+  padding: 0px;
+}
+.card-content {
+  width: 30px;
+}

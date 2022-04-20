@@ -1,0 +1,46 @@
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.box-2 { 
+  display: flex;
+  justify-content: center;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-border-box {
+  background: aqua;
+  border: 1px solid;
+  height: 190px;
+  width: 130px;
+  margin: 10px;
+}
+
+.border-box {
+  background: aqua;
+  border: 1px solid;
+  height: 60px;
+  width: 100px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 700px;
+  height: 600px;
+  background: antiquewhite;
+}
