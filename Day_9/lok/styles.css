@@ -2,14 +2,81 @@
 /* continer*/
 
 
+/* top banner */
+
+.top_banner-c {
+    background-color: rgb(33, 37, 41);
+}
+.bolder {
+    font-weight: bolder !important; 
+}
 
 /* nav */
 /* nav elements */
-/* top banner */
-/* mid icons */
+
+/* features panel */
+.features_title-f {
+    font-size: 20px;
+}
+.features_content-f {
+    font-size: 14px;
+}
+/* icons */
+.features_icon-c {
+    background-color: rgb(44, 128, 252);
+  }
+
 /* quote */
+.quotes p {
+    font-style: italic;
+    font-size: 1.5rem ;
+  }
+
 /* cards */
+.card_title-f {
+    font-size: 18px;
+  }
+  
+.card_content-f {
+    font-size: 14px;
+  }
+
+/* email */
+
 /* fotter */
-/*  */
+.footer-c {
+    background-color: rgb(33, 37, 41);
+  }
+
+/* general */
+.text-a-c {
+  text-align: center
+}
+.text-c-w {
+  color: white
+  }
+.text-c-b {
+  color: black
+}
+.text-c-gr {
+  color:rgb(140, 140, 140)
+}
+.button {
+  text-align: center;
+}
+.bg-r{
+  background-color:rgb(255, 64, 25);
+}
+.bg-b{
+  background-color: rgb(11, 94, 215);
+}
+.bg-w {
+  background-color: white;
+}
+.bg-q {
+  background-color: rgb(238, 238, 238);
+}
+
+
 
 
