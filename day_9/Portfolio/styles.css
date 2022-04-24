@@ -25,6 +25,11 @@
   margin-top: 100px;
   margin-bottom: 20px;
   border-radius: 50%;
+  background-image: url('image.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #FFFF;
+
 }
 .margin-right1{
   margin-right: auto;
