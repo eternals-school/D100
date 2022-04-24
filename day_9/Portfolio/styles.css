@@ -23,7 +23,11 @@
   border: 2px solid;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 20px;
   border-radius: 50%;
+}
+.margin-right1{
+  margin-right: auto;
 }
 .sub_container1{
   display: flex;
