@@ -1,0 +1,105 @@
+/* structure */
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Roboto Serif';
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Roboto Serif';
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Roboto Serif';
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: 'Roboto Serif';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 800px;
+  background-color: #f44336;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+}
+
+.page-content {
+  margin-left: 240px;
+  margin-right: 70px;
+}
+
+.section {
+  min-height: 800px;
+  margin: auto 0px;
+}
+
+.brief-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+/* properties */
+.flex-left {
+  display: flex;
+  justify-content: left;
+}
+
+.flex-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* elements */
+.profile-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 20px auto;
+}
+
+.socials {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #29c54d;
+  margin: 10px;
+}
+
+.sidebar-item {
+  font-family: 'Fira Code', 'Lato';
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.history-timeframe {
+  font-family: 'Fira Code', 'Lato';
+  font-weight: 400;
+  color: #f44336;
+  min-width: max-content;
+}
