@@ -8,11 +8,29 @@
 
 .nav {
   display: flex;
+  position: fixed;
+  height: 100%;
 }
 
-.sidebar {
+/* horizantal nav bar */
+/*
+.sidenav {
+  overflow: hidden;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+}
+*/
+/* vertical nav bar */
+
+.sidenav {
+  height: 100%;
   width: 260px;
-  position: sticky;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
 }
 
 .profile_image {
@@ -21,12 +39,14 @@
   border-radius: 60%;
   border: 10px solid #61d800;
 }
+
 /* pro-pic */
 /* nav-elements */
 
 /* content */
 .page {
   border-bottom: 1px solid #61d800;
+  width: auto;
 }
 
 .page-center {
@@ -36,6 +56,7 @@
   padding-bottom: 50px;
   margin-top: 40px;
   margin-bottom: 40px;
+  margin-left: 260px;
 }
 
 /* 

@@ -1,13 +1,11 @@
-
-
 /* general */
 
- .justiy-content-center {
+.justiy-content-center {
   justify-content: center;
 }
 
 .padding-0px {
- padding : 0px;
+  padding: 0px;
 }
 .padding-30px {
   padding: 30px;
@@ -28,6 +26,5 @@
   border-bottom: 1px solid #61d800;
 }
 .height {
-  height:700px;
+  height: 700px;
 }
-
