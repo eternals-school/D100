@@ -1,58 +1,110 @@
 /* structure */
 body {
-  display: flex;
-  justify-content: space-between;
+  background-color: #1d1c16;
+  color: #9e9e9e;
+  font-family: "Fira Code", "Lato";
 }
-
 h1 {
-  font-family: 'Roboto Serif';
+  font-family: "Quattrocento", serif;
   font-weight: 700;
   font-size: 60px;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 h2 {
-  font-family: 'Roboto Serif';
+  font-family: "Roboto Serif";
   font-weight: 700;
-  font-size: 40px;
+  font-size: 46px;
   margin-bottom: 10px;
+  color: #dac0c0;
 }
 
 h3 {
-  font-family: 'Roboto Serif';
+  font-family: "Roboto Serif";
   font-weight: 700;
   font-size: 26px;
   margin-bottom: 10px;
+  color: #aca3a3;
 }
 
 h4 {
-  font-family: 'Roboto Serif';
+  font-family: "Roboto Serif";
   font-weight: 700;
   font-size: 20px;
 }
 
+a, a:hover {
+  text-decoration: none;
+  color: #e6cec9;
+}
+
 p {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: 400;
   font-size: 18px;
 }
 
 .sidebar {
-  width: 200px;
-  height: 800px;
-  background-color: #f44336;
-  padding: 20px;
-  position: fixed;
-  text-align: center;
+  background-color: #a44300;
+  padding: 30px;
+}
+
+@media (min-width: 767px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sidebar {
+    height: 100vh;
+    position: sticky;
+    text-align: center;
+  }
+
+  .sidebar > div {
+    margin-top: calc(50vh - 240px);
+  }
+
+  .profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 40%;
+    margin: 20px auto;
+    background: url("https://avatars.githubusercontent.com/u/4404023?v=4");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: sticky;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .profile-image {
+    display: none;
+  }
+
+  .sidebar div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sidebar p {
+    padding: 10px;
+  }
 }
 
 .page-content {
-  margin-left: 240px;
-  margin-right: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .section {
-  min-height: 800px;
+  min-height: 100vh;
   margin: auto 0px;
 }
 
@@ -75,31 +127,25 @@ p {
 }
 
 /* elements */
-.profile-image {
+.socials > img {
   width: 70px;
-  height: 70px;
+  height: auto;
   border-radius: 50%;
-  background-color: #ffffff;
-  margin: 20px auto;
-}
-
-.socials {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #29c54d;
   margin: 10px;
 }
 
-.sidebar-item {
-  font-family: 'Fira Code', 'Lato';
+.sidebar p {
+  font-family: "Fira Code", "Lato";
   font-weight: 400;
-  color: #ffffff;
 }
 
 .history-timeframe {
-  font-family: 'Fira Code', 'Lato';
+  font-family: "Fira Code", "Lato";
   font-weight: 400;
   color: #f44336;
   min-width: max-content;
+}
+
+.primaryColorText {
+  color: #de5e02;
 }

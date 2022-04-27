@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Lato&family=Roboto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Lato&family=Roboto+Serif&family=Quattrocento:wght@700&display=swap" rel="stylesheet">
     <!-- Reboot CSS -->
     <link href="./reboot.css" rel="stylesheet" />
     <!-- Styles CSS -->
@@ -17,20 +17,22 @@
     <!-- Start: BODY -->
     <!-- Attempt for this -->
     <!-- https://startbootstrap.com/previews/resume -->
-    <div class="sidebar flex-vertical-center">
+    <div class="sidebar">
       <div>
       <div class="profile-image"></div>
-      <p class="sidebar-item">ABOUT</p>
-      <p class="sidebar-item">EXPERIENCE</p>
-      <p class="sidebar-item">EDUCATION</p>
-      <p class="sidebar-item">SKILLS</p>
-      <p class="sidebar-item">INTERESTS</p>
-      <p class="sidebar-item">AWARDS</p>
+      <p><a href="#about">ABOUT</a></p>
+      <p><a href="#experience">EXPERIENCE</a></p>
+      <p><a href="#education">EDUCATION</a></p>
+      <p><a href="#skills">SKILLS</a></p>
+      <p><a href="#interests">INTERESTS</a></p>
+      <p><a href="#awards">AWARDS</a></p>
       </div>
     </div>
     <div class="page-content">
+
+      <!-- about me -->
       <div class="section flex-vertical-center">
-        <h1>BHARATH S</h1>
+        <h1><a id="about">BHARATH <span class="primaryColorText">S</span></a></h1>
         <h3>221B Baker Street, London</h3>
         <h4>contact@bharathyes.meta</h4>
         <p>
@@ -39,13 +41,14 @@
           to put them back together.
         </p>
         <div class="flex-left">
-          <div class="socials"></div>
-          <div class="socials"></div>
-          <div class="socials"></div>
-          <div class="socials"></div>
+          <a class="socials" href="https:twitter.com/"><img src="https://graphics8.nytimes.com/images/2012/06/06/business/dbpix-twitter/dbpix-twitter-articleInline.jpg" alt="twitter"/></a>
+          <a class="socials" href="https://signal.org/"><img src="https://s3.amazonaws.com/mobileappdaily/mad/uploads/mad_5e2ab7fc1c9d91579857916.png" alt="signal"/></a>
+          <a class="socials" href="https://telegram.org/"><img src="https://bestoftelegram.com/channels/img/telegram.jpg" alt="telegram"/></a>
         </div>
       </div>
-      <div class="section flex-vertical-center">
+
+      <!-- experience -->
+      <div class="section flex-vertical-center"><a id="experience"></a>
         <h2>EXPERIENCE</h2>
         <div class="brief-card">
           <div>
@@ -74,7 +77,9 @@
           <div class="history-timeframe">April 2022 - Present</div>
         </div>
       </div>
-      <div class="section flex-vertical-center">
+
+      <!-- education -->
+      <div class="section flex-vertical-center"><a id="education"></a>
         <h2>EDUCATION</h2>
         <div class="brief-card">
           <div>
@@ -105,8 +110,10 @@
           </div>
         </div>
       </div>
+
+      <!-- skills -->
       <div class="section flex-vertical-center">
-        <h2>SKILLS</h1>
+        <h2><a id="skills">SKILLS</a></h1>
         <h3>Languages and Tools</h3>
         <div class="flex-left">
           <div class="socials"></div>
@@ -119,11 +126,15 @@
         <p>Skill2</p>
         <p>Skill3</p>
       </div>
-      <div class="section flex-vertical-center">
+
+      <!-- interests -->
+      <div class="section flex-vertical-center"><a id="interests"></a>
         <h2>INTERESTS</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur architecto quod cum nulla facere id, sed inventore atque deserunt amet corrupti laboriosam rem beatae? Ullam est id maxime similique obcaecati.</p>
       </div>
-      <div class="section flex-vertical-center">
+
+      <!-- awards -->
+      <div class="section flex-vertical-center"><a id="awards"></a>
         <h2>AWARDS AND CERTIFICATIONS</h2>
         <p>1st place</p>
         <p>1st place</p>
