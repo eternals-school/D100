@@ -1,14 +1,14 @@
 /* structure */
 body {
   background-color: #1d1c16;
-  color: #9e9e9e;
+  color: #ffffff;
   font-family: "Fira Code", "Lato";
 }
 h1 {
   font-family: "Quattrocento", serif;
   font-weight: 700;
   font-size: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
@@ -16,102 +16,56 @@ h2 {
   font-family: "Roboto Serif";
   font-weight: 700;
   font-size: 46px;
-  margin-bottom: 10px;
-  color: #dac0c0;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
 h3 {
   font-family: "Roboto Serif";
   font-weight: 700;
   font-size: 26px;
-  margin-bottom: 10px;
-  color: #aca3a3;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
 h4 {
   font-family: "Roboto Serif";
   font-weight: 700;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 a, a:hover {
   text-decoration: none;
-  color: #e6cec9;
+  color: #ffffff;
 }
 
 p {
-  font-family: "Lato";
+  font-family: "Lato", "Fira Code";
   font-weight: 400;
   font-size: 18px;
 }
 
-.sidebar {
-  background-color: #a44300;
-  padding: 30px;
-}
-
-@media (min-width: 767px) {
-  body {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .sidebar {
-    height: 100vh;
-    position: sticky;
-    text-align: center;
-  }
-
-  .sidebar > div {
-    margin-top: calc(50vh - 240px);
-  }
-
-  .profile-image {
-    width: 130px;
-    height: 130px;
-    border-radius: 40%;
-    margin: 20px auto;
-    background: url("https://avatars.githubusercontent.com/u/4404023?v=4");
-    background-size: cover;
-  }
-}
-
-@media (max-width: 768px) {
-  .sidebar {
-    position: sticky;
-    text-align: center;
-    width: 100vw;
-  }
-
-  .profile-image {
-    display: none;
-  }
-
-  .sidebar div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .sidebar p {
-    padding: 10px;
-  }
-}
-
 .page-content {
-  margin-left: 40px;
-  margin-right: 40px;
+  width: 1080px;
+  margin: auto;
+  padding: 0px 20px;
 }
 
 .section {
   min-height: 100vh;
   margin: auto 0px;
+  border-bottom: 1px solid;
 }
 
 .brief-card {
-  display: flex;
-  justify-content: space-between;
   margin: 20px auto;
+}
+
+.brief-card > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* properties */
@@ -127,14 +81,24 @@ p {
 }
 
 /* elements */
-.socials > img {
-  width: 70px;
-  height: auto;
-  border-radius: 50%;
+.socials {
+  width: 60px;
   margin: 10px;
 }
 
-.sidebar p {
+.socials > img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #a44300;
+  padding: 30px;
+  position: sticky;
+  top: 0px;
+}
+
+.sidebar a {
   font-family: "Fira Code", "Lato";
   font-weight: 400;
 }
@@ -148,4 +112,58 @@ p {
 
 .primaryColorText {
   color: #de5e02;
+}
+
+.profile-image {
+  width: 130px;
+  margin: 20px auto;
+}
+
+.profile-image > img {
+  width: 100%;
+  border-radius: 40%;
+}
+
+/* larger screens */
+@media (min-width: 767px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sidebar {
+    height: 100vh;
+    width: 20%;
+  }
+
+  .sidebar > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+}
+
+/* smaller screens */
+@media (max-width: 768px) {
+  .sidebar {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+  }
+
+  .sidebar div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sidebar p {
+    padding: 10px;
+  }
+
+  .profile-image > img {
+    display: none;
+  }
 }
