@@ -1,118 +1,110 @@
-
-/* Box CSS */
-.box_1 {
-  width: 450px;
-  height: 300px;
-  margin: 10px;
-  border: 1px solid;
-}
-.box_2 {
-  width: 320px;
-  height: 50px;
-  margin: 10px;
-  border: 1px solid;
-}
-.box_3{
-  width: 300px;
-  height: 100px;
-  margin: 10px;
-  border: 1px solid;
-  background: salmon;
-}
-.box_4{
-  width: 600px;
-  height: 300px;
-  margin: 10px;
-  border: 1px solid;
-  background: blueviolet;
-}
-.box_5{
-  width: 500px;
-  height: 250px;
-  border: 1px solid;
-  margin: 10px;
-  background: sandybrown;
-
-}
-.box_6{
-  width: 800px; ;
-  height: 150px; ;
-  border: 1px solid;
-  margin: 10px;
-  background: fuchsia;
-}
-.box_7{
-  width:300px ;
-  height:480px;
-  border: 1px solid;
-  margin:10px;
-  background: olive;
-}
-.box_8{
-  width: 930px;
-  height: 200px;
-  border: 1px solid;
-  margin: 10px;
-  background: rebeccapurple;
-
-}
-.a1 {
-  width: 450px;
-  height: 100px;
-  background:greenyellow;
-  border: 1px solid;
-}
-.a11 {
-  width: 150px;
-  height: 25px;
-  border: 1px solid;
-  background:darkmagenta;
-  margin-top: 25px;
-  margin: 10px;
-}
-.b1{
-  width:300px;
-  height: 150px;
-  border: 1px solid;
-  background: mediumseagreen;
-}
-.c1{
-  width:400px;
-  height:60px;
-  background: tomato;
-  border: 1px solid;
-  margin: 150px;
-  
-  margin-left: 45px;
-
-}
-.d1{
-  width: 300px;;
-  height: 160px;
-  border:1px solid ;
-
-}
-/* Structure CSS */
-.flex_column {
-  flex-direction: column;
-}
-.main_1{
-  width: 100%;
-  height: 70%;
-  margin: 1px solid;
-  background: tan;
-}
-.flex_row{
-  display: flex;
-  flex-direction: row;
-}
 .row_1{
-  display: flex;
-  margin-bottom: 10px;
-  justify-content:center;
+  width: 100%;
+  height: 300px;
+  border: 1px solid;
 }
 .row_2{
+  width: 100%;
+  height: 280px;
+  margin-top: 10px;
+  border: 1px solid;
+}
+.row_3{
+  width: 100%;
+  height: 350px;
+  margin-top: 10px;
+  border: 1px solid;
+}
+.row_4{
+  width: 100%;
+  height: 350px;
+  margin-top: 10px;
+  border: 1px solid;
+}
+.center_1{
+  width: 700px;
+  height: 50px;
+  border: 1px solid;
+  margin: auto;
+  text-align: center;
+}
+.center_2{
+  width: 700px;
+  height: 240px;
+  border: 1px solid;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.center_3{
+  width: 700px;
+  height: 250px;
+  border: 1px solid;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.center_4{
+  width: 300px;
+  height: 60px;
+  border: 1px solid;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.nav_1{
+  width: 200px;
+  height: 30px;
+  margin-top: 8px;
+  border: 1px solid;
+}
+.nav_2{
+  width: 250px;
+  height: 210px;
+  margin-top: 12px;
+  border: 1px solid;
+}
+.nav_21{
+  width: 250px;
+  height: 70px;
+  border: 1px solid;
+}
+.nav_211{
+  width: 100px;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 15px;
+
+}
+.box_1{
+  width: 220px;
+  height: 250px;
+  border: 1px solid;
+
+}
+.box_11{
+  width: 220px;
+  height: 125px;
+  border: 1px solid;
+
+}
+.box_111{
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  padding: 5px;
+
+}
+.box_12{
+  width: 220px;
+  height: 80px;
+  border:1px solid;
+}
+.a1{
   display: flex;
-  margin-bottom: 10px;
-  justify-content:space-evenly;
-  }
+  justify-content: space-between;
+}
+.a2{
+  display: flex;
+  justify-content: flex-start;
+}

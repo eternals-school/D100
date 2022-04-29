@@ -1,0 +1,45 @@
+.centred-page {
+    border: 1px solid;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: orange;
+}
+
+.navbar {
+    border: 1px solid;
+    margin:auto;
+    width: 100%;
+    padding: 5px;
+    background-color: brown;
+}
+
+.navbar-element {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orangered;
+}
+
+.navbar-item {
+    border: 1px solid;
+    height: 30px;
+    width:30px;
+    background-color: yellowgreen;
+}
+
+.banner {
+    border: 1px solid;
+    margin:auto;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: brown;
+}
+
+.banner-overlay {
+    
+}
