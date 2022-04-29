@@ -1,0 +1,95 @@
+.header_1{
+    background-color: darkorange;
+    }
+    
+    .header_2{
+    background-color: rgb(255, 255, 255);
+    }
+    .header_3{
+        background-color: rgb(133, 133, 128);
+    }
+    .display_1{
+        width: 800px;
+        margin: auto;
+    }
+    .display_2{
+        width: 500px;
+        margin: auto;
+    }
+    .display_3{
+        width: 250px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5px;
+        color: aliceblue;
+    }
+    .nav ul{
+        display: flex;
+        
+    }
+    
+    .banner{
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner_content{
+        width: 400px;
+    }
+    .banner_content>div{
+        display: flex;
+    }
+    .button{
+        display: flex;
+        margin-bottom: 20px;
+        margin-right: 10PX;
+        border: 1px solid;
+    }
+    .banner_img{
+        width: 350px;
+        height: 170px;
+        background-color: azure;
+    }
+    .box{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box_1{
+        display: flex;
+        width: 200px;
+        height: 70px;
+        
+    }
+    .box_2{
+        display: flex;
+        width: 300px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .box21{
+        width: 300px;
+        height: 50px ;
+    }
+    .box_22{
+        flex-direction: column;
+    }
+    }
+    
+    
+    .center_1{
+        margin:auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+    }
