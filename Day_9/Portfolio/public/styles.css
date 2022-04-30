@@ -1,0 +1,45 @@
+.body{
+  font-family: 'Lato'
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  position:fixed;
+  min-width: 20%;
+  height: 100vh;
+  background-color: #33691E;
+
+}
+h3,h5,h1{
+  font-weight: 700;
+}
+
+.nav_1{
+  margin: auto;
+ align-items: center;
+}
+
+.nav_11{
+  width: 150px;
+  height: 150px;
+  border: 2px solid;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-image: url('image.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: black;
+  border-color: #FFFF;
+
+}
+.main-page{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: 1px solid;
+  
+}
+
