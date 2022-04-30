@@ -41,6 +41,7 @@ h3,h5,h1{
   }
 
 .container-1{
+  display: flex;
   width: 1080px;
   height: 100vh;
   border-bottom: 1px solid;
