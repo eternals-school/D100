@@ -38,8 +38,12 @@ h3,h5,h1{
 .main-page{
   display: flex;
   flex-direction: column;
-  width: 80%;
-  border: 1px solid;
-  
+  }
+
+.container-1{
+  width: 1080px;
+  height: 100vh;
+  border-bottom: 1px solid;
+  background-color: rebeccapurple;
 }
 
