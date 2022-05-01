@@ -7,7 +7,7 @@
   position:fixed;
   min-width: 20%;
   height: 100vh;
-  background-color: #33691E;
+  background-color: #0D47A1;
 
 }
 h3,h5,h1{
@@ -62,7 +62,7 @@ h3,h5,h1{
  }
  .border{
    margin-top: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
    border-bottom: 1px solid;
  }
  .main-container{
