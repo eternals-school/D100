@@ -49,6 +49,10 @@ h3,h5,h1{
    margin-bottom: 20px;
 
  }
+ .flex-1{
+   display: flex;
+   justify-content: space-between;
+ }
 .container-1{
   display: flex;
   max-width: 1080px;
