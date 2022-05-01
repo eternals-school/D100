@@ -49,9 +49,30 @@ h3,h5,h1{
   background-color: rebeccapurple;
 }
 .sub-container{
-  margin-left: 25%;
-  margin-top: 25%;
+  align-items: center;
+  margin: auto;
+  margin-left: 15%;
+  margin-top: 10%;
   background-color: black;
   
+}
+.sub-container > h1{
+  margin-bottom: 35px;
+}
+.sub-container >h5,p{
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+}
+.icon-1{
+ align-items: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
 }
 
