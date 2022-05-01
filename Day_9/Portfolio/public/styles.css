@@ -27,7 +27,7 @@ h3,h5,h1{
   align-items: center;
   margin-bottom: 20px;
   border-radius: 50%;
-  background-image: url('image.jpeg');
+  background-image: url('icons8-chrome.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -42,13 +42,13 @@ h3,h5,h1{
 
 .container-1{
   display: flex;
-  width: 1080px;
   height: 100vh;
   border-bottom: 1px solid;
   margin-left: 20%;
   background-color: rebeccapurple;
 }
 .sub-container{
+  width: 1080px;
   align-items: center;
   margin: auto;
   margin-left: 15%;
