@@ -1,0 +1,172 @@
+/* structure */
+body {
+  background-color: #1d1c16;
+  color: #ffffff;
+  font-family: "Fira Code", "Lato";
+}
+h1 {
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Roboto Serif";
+  font-weight: 700;
+  font-size: 46px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: "Roboto Serif";
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+h4 {
+  font-family: "Roboto Serif";
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Lato", "Fira Code";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.page-content {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+.section {
+  min-height: 100vh;
+  margin: auto 0px;
+  border-bottom: 1px solid;
+}
+
+.brief-card {
+  margin: 20px auto;
+}
+
+.brief-card > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* properties */
+.flex-left {
+  display: flex;
+  justify-content: left;
+}
+
+.flex-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* elements */
+.socials {
+  width: 60px;
+  margin: 10px;
+}
+
+.socials > img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #a44300;
+  padding: 30px;
+  position: sticky;
+  top: 0px;
+}
+
+.sidebar a {
+  font-family: "Fira Code", "Lato";
+  font-weight: 400;
+}
+
+.history-timeframe {
+  font-family: "Fira Code", "Lato";
+  font-weight: 400;
+  color: #f44336;
+  min-width: max-content;
+}
+
+.primaryColorText {
+  color: #de5e02;
+}
+
+.profile-image {
+  width: 130px;
+  margin: 20px auto;
+}
+
+.profile-image > img {
+  width: 100%;
+  border-radius: 40%;
+}
+
+/* larger screens */
+@media (min-width: 760px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sidebar {
+    height: 100vh;
+    width: 20%;
+  }
+
+  .sidebar > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+}
+
+/* smaller screens */
+@media (max-width: 760px) {
+  .page-content {
+    max-width: 760px;
+  }
+  .sidebar {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+  }
+
+  .sidebar div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sidebar p {
+    padding: 10px;
+  }
+
+  .profile-image > img {
+    display: none;
+  }
+}
