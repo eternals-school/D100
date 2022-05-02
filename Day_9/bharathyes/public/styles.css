@@ -47,7 +47,7 @@ p {
 }
 
 .page-content {
-  width: 1080px;
+  max-width: 1080px;
   margin: auto;
   padding: 0px 20px;
 }
@@ -125,7 +125,7 @@ p {
 }
 
 /* larger screens */
-@media (min-width: 767px) {
+@media (min-width: 760px) {
   body {
     display: flex;
     justify-content: space-between;
@@ -146,7 +146,10 @@ p {
 }
 
 /* smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
+  .page-content {
+    max-width: 760px;
+  }
   .sidebar {
     position: sticky;
     top: 0px;
