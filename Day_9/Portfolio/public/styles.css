@@ -116,3 +116,11 @@ h3{
   background-size: contain;
   background-color: #546E7A;
 }
+@media (max-width:1080px) {
+  .nav{
+    width: 100%;
+    height: fit-content;
+  }
+  .nav_11{
+    display: none;
+  }
