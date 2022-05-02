@@ -52,7 +52,6 @@ h3{
 .main-page{
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
   }
   
  img{
@@ -120,9 +119,6 @@ h3{
   background-color: #546E7A;
 }
 @media (max-width:1080px) {
-  .main-page{
-    display: block;
-  }
   .nav{
     display: flex;
     flex-direction: row;
