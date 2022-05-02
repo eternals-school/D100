@@ -118,8 +118,15 @@ h3{
 }
 @media (max-width:1080px) {
   .nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
     width: 100%;
     height: fit-content;
+  }
+  .container-1{
+    align-items: center;
+    
   }
   .nav_11{
     display: none;
