@@ -50,6 +50,7 @@ h3{
 .main-page{
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
   }
   
  img{
@@ -117,6 +118,7 @@ h3{
   background-color: #546E7A;
 }
 @media (max-width:1080px) {
+  mainpage top 
   .nav{
     display: flex;
     flex-direction: row;
@@ -124,9 +126,13 @@ h3{
     width: 100%;
     height: fit-content;
   }
+  .ul{
+    margin-top: 24px;
+    padding: 15px 15px;
+  }
   .container-1{
     align-items: center;
-    
+
   }
   .nav_11{
     display: none;
