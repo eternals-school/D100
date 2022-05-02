@@ -124,3 +124,8 @@ h3{
   .nav_11{
     display: none;
   }
+  .nav_1 > ul{
+    display: flex;
+    flex-direction: row;
+  }
+}
