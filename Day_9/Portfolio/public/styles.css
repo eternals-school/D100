@@ -121,5 +121,16 @@ h3{
      height: 100vh;
   }
 }
-
-
+@media (max-width:900px) {
+  .main-page{
+    display: block;
+  }
+  .nav{
+    height: fit-content;
+  }
+  .nav_11{
+    display: none;
+  }
+  
+  
+}
