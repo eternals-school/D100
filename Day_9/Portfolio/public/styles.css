@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
   position:fixed;
+  top: 0;
+  bottom: 0;
   min-width: 20%;
   height: 100vh;
   background-color: #0D47A1;
@@ -118,15 +120,15 @@ h3{
   background-color: #546E7A;
 }
 @media (max-width:1080px) {
-  mainpage top 
+  .main-page{
+    display: block;
+  }
   .nav{
     display: flex;
     flex-direction: row;
-    position: fixed;
-    width: 100%;
     height: fit-content;
   }
-  .ul{
+  .h6{
     margin-top: 24px;
     padding: 15px 15px;
   }
@@ -141,4 +143,5 @@ h3{
     display: flex;
     flex-direction: row;
   }
+
 }
