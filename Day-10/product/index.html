@@ -6,6 +6,9 @@
     <!-- Reboo CSS -->
     <link href="./reboot.css" rel="stylesheet">
     <!-- Styles CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
     <link href="./styles.css" rel="stylesheet">
     <title>Flex Tutorial</title>
     <style>
@@ -13,7 +16,7 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        border: 1px solid;
+        background-color: #424242;
       }
       ul{
         display: flex;
@@ -23,35 +26,36 @@
       }
       li{
         display: flex;
+        font-family: 'Roboto';
+        font-weight: 300;
         margin-right: 20px;
+        color: #ffff;
 
       }
       .display{
         width: 100%;
         height: 600px;
-        border: 1px solid;
       }
       .display-1{
         
         margin: 30px;
-        border: 1px solid;
         height: 400px;
-        margin-top: 10%;
+        overflow: hidden;
+        background-color: #F5F5F5;
       }
       .display-2{
         
         margin: 30px;
-        border: 1px solid;
         height: 400px;
       }
       .mobile-1{
         width: 250px;
         height: 450px;
         margin-top: -8%;
-        border-radius: 3%;
+        border-radius: 5%;
         margin-left: 50px;
-        border: 1px solid;
         transform: rotate(29deg);
+        background-color: #BDBDBD;
 
 
       }
@@ -60,23 +64,31 @@
         width: 250px;
         height: 450px;
         margin-top: 8%;
-        border-radius: 3%;
+        border-radius: 5%;
         margin-right: 8%;
-        border: 1px solid;
         transform: rotate(35deg);
+        background-color: #424242;
 
 
       }
+     .box-1{
+        width: 200px;
+        height: 400px;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #FAFAFA;
+      } 
       .box-1{
         width: 200px;
         height: 400px;
         margin: auto;
         margin-top: 40px;
-        border: 1px solid;
-      }
+        background-color: #9E9E9E;
+      } 
       .flex-1{
         display: flex;
         justify-content: space-between;
+        background-color: #F5F5F5;
       }
       .flex-2{
         display: flex;
@@ -96,11 +108,12 @@
         margin: auto;
       }
       .small-box{
-        width: 650px;
+        width: 560px;
         height: 500px;
         margin: auto;
         text-align: center;
-        border: 1px solid;
+        background-color:#424242;
+        margin-top: 20px;
       }
      
       .small-box1{
@@ -109,7 +122,8 @@
         align-items: center;
         margin: auto;
         margin-top: 40px;
-        border: 1px solid;
+        background-color: #BDBDBD;
+        border-radius: 5%;
       }
       .footer-content{
         margin-right: 30px;
@@ -125,7 +139,7 @@
       }
     </style>
   </head>
-  <body>
+  <body style="font-family: 'Roboto'">
     <!-- Start: BODY -->
     <nav class="side-nav">
         <ul>
@@ -154,7 +168,7 @@
        
       </div>
       <div class="content-page">
-        <h4>Punny headline</h4>
+        <h4 style="font-weight: 500;">Punny headline</h4>
         <p>And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.
 
         </p>
@@ -165,46 +179,46 @@
     </div>
     <div class="display-2">
     <div class="flex-1">
-      <div class="small-box">
+      <div class="small-box" style=background-color:#BDBDBD;>
         <h4>Another headline</h4>
         <p>And an even wittier subheading.</p>
-        <div class="small-box1"></div>
+        <div class="small-box1" style="background-color:#424242;"></div>
       </div>
-      <div class="small-box">
+      <div class="small-box" style="background-color:#424242">
         <h4>Another headline</h4>
         <p>And an even wittier subheading.</p>
-        <div class="small-box1"></div>
-      </div>
-    </div>
-    <div class="flex-1">
-      <div class="small-box">
-        <h4>Another headline</h4>
-        <p>And an even wittier subheading.</p>
-        <div class="small-box1"></div>
-      </div>
-      <div class="small-box">
-        <h4>Another headline</h4>
-        <p>And an even wittier subheading.</p>
-        <div class="small-box1"></div>
+        <div class="small-box1" style="background-color:#BDBDBD"></div>
       </div>
     </div>
     <div class="flex-1">
-      <div class="small-box">
+      <div class="small-box" style="background-color: #00B8D4;">
         <h4>Another headline</h4>
         <p>And an even wittier subheading.</p>
-        <div class="small-box1"></div>
+        <div class="small-box1" style="background-color: #84FFFF;"></div>
       </div>
-      <div class="small-box">
+      <div class="small-box" style="background-color:#BDBDBD">
         <h4>Another headline</h4>
         <p>And an even wittier subheading.</p>
-        <div class="small-box1"></div>
+        <div class="small-box1" style="background-color:#424242"></div>
       </div>
     </div>
     <div class="flex-1">
-      <div class="small-box">
+      <div class="small-box" style="background-color:#BDBDBD">
         <h4>Another headline</h4>
         <p>And an even wittier subheading.</p>
-        <div class="small-box1"></div>
+        <div class="small-box1" style="background-color: #ffffff;"></div>
+      </div>
+      <div class="small-box" style="background-color: #33691E;">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color: #DCEDC8;"></div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <div class="small-box" style="background-color:#BDBDBD ;">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color: #424242;"></div>
       </div>
       <div class="small-box">
         <h4>Another headline</h4>
