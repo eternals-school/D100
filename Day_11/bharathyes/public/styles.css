@@ -1,0 +1,10 @@
+main {
+    background-color: #ffb0a0;
+    width: 800px;
+    margin: auto;
+}
+
+main > div {
+    padding: 30px;
+    border: 1px solid #000000;
+}
