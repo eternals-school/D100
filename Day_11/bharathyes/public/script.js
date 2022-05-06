@@ -27,4 +27,6 @@ document.getElementById('http-container').addEventListener('click', function() {
 
 document.getElementById('clear-button').addEventListener('click', function() {
     document.getElementById('http-container').innerHTML = 'Make a XHR....';
+    document.getElementById('counter-container').innerText = 0;
+    document.getElementById('colour-container').style.backgroundColor = '#ffb0a0';
 });
