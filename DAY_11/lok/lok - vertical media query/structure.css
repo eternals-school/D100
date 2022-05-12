@@ -1,0 +1,133 @@
+/* general */
+
+.justiy-content-center {
+  justify-content: center;
+}
+.justiy-space-between {
+  justify-content: space-between;
+}
+
+.padding-0px {
+  padding: 0px;
+}
+.padding-30px {
+  padding: 30px;
+}
+
+.margin-bottom-40px {
+  margin-bottom: 40px;
+}
+.margin-top-40px {
+  margin-top: 40px;
+}
+.m-l-10px {
+  margin-left: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #61d800;
+}
+.height {
+  height: 700px;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+  .profile_image {
+    width: 0px;
+    height: 0px;
+    border: 0px solid #61d800;
+  }
+  .proimg {
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .profile_image-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid #61d800;
+  }
+  .proimg-2 {
+    margin-top: 40px;
+    padding: 0px;
+  }
+  .page-center {
+    width: auto;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+  }
+  .font-size-1 {
+    font-size: 35px;
+  }
+  .nav {
+      
+      /* flex-direction: row; */
+      width: 100%;
+      height: 70px;
+      
+    }
+  .nav-e {
+
+    width: 100%;
+      display: flex;
+      flex-direction: row;
+      
+      padding: 2px;
+    }
+
+  .nav-e-n {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;
+    margin-left: 10px;
+    
+
+  }
+  
+  
+  
+    .pad-t {
+      padding-top: 50px;
+    }
+    .h1,
+    h1 {
+      font-family: "Saira Extra Condensed", sans-serif;
+      font-weight: bolder;
+      font-size: 40px;
+      color: #1fdf64;
+    }
+    .h2,
+    h2 {
+      font-family: "Saira Extra Condensed", sans-serif;
+      color: #dfdfdf;
+    }
+    .h3,
+    h3 {
+      font-family: "Saira Extra Condensed", sans-serif;
+      color: #bbb9b9;
+    }
+    .h4,
+    h4 {
+      font-family: "Oswald", sans-serif;
+      color: #626262;
+    }
+    
+    .p,
+    p {
+      font-family: "Akshar", sans-serif;
+      color: #999999;
+    }
+
+}

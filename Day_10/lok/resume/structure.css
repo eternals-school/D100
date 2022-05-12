@@ -1,0 +1,34 @@
+/* general */
+
+
+.justiy-content-center {
+  justify-content: center;
+}
+.justiy-space-between {
+  justify-content: space-between;
+}
+
+.padding-0px {
+  padding: 0px;
+}
+.padding-30px {
+  padding: 30px;
+}
+
+.margin-bottom-40px {
+  margin-bottom: 40px;
+}
+.margin-top-40px {
+  margin-top: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #61d800;
+}
+.height {
+  height: 700px;
+}
