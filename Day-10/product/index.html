@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Reboo CSS -->
+    <link href="./reboot.css" rel="stylesheet">
+    <!-- Styles CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather:ital,wght@1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Flex Tutorial</title>
+    <style>
+      .side-nav{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #424242;
+      }
+      ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: auto;
+      }
+      li{
+        display: flex;
+        font-family: 'Roboto';
+        font-weight: 300;
+        margin-right: 20px;
+        color: #ffff;
+
+      }
+      .display{
+        width: 100%;
+        height: 600px;
+      }
+      .display-1{
+        
+        margin: 30px;
+        height: 400px;
+        overflow: hidden;
+        background-color: #F5F5F5;
+      }
+      .display-2{
+        
+        margin: 30px;
+        height: 400px;
+      }
+      .mobile-1{
+        width: 250px;
+        height: 450px;
+        margin-top: -8%;
+        border-radius: 5%;
+        margin-left: 50px;
+        transform: rotate(29deg);
+        background-color: #BDBDBD;
+
+
+      }
+      .mobile-2{
+      
+        width: 250px;
+        height: 450px;
+        margin-top: 8%;
+        border-radius: 5%;
+        margin-right: 8%;
+        transform: rotate(35deg);
+        background-color: #424242;
+
+
+      }
+     .box-1{
+        width: 200px;
+        height: 400px;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #FAFAFA;
+      } 
+      .box-1{
+        width: 200px;
+        height: 400px;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #9E9E9E;
+      } 
+      .flex-1{
+        display: flex;
+        justify-content: space-between;
+        background-color: #F5F5F5;
+      }
+      .flex-2{
+        display: flex;
+        justify-content: center;
+      }
+      .content-page{
+        width: 500px;
+        height:300px;
+        margin: auto;
+        margin-top: -20%;
+        text-align: center;
+      }
+      .button{
+        width: 200px;
+        height: 25px;
+        border: 1px solid;
+        margin: auto;
+      }
+      .small-box{
+        width: 560px;
+        height: 500px;
+        margin: auto;
+        text-align: center;
+        background-color:#424242;
+        margin-top: 20px;
+      }
+     
+      .small-box1{
+        width: 400px;
+        height: 300px;
+        align-items: center;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #BDBDBD;
+        border-radius: 5%;
+      }
+      .footer-content{
+        margin-right: 30px;
+      }
+      .footer-content > h4{
+        margin-bottom: 30px;
+      }
+      .footer-1{
+        display: flex;
+        margin-top: 30px;
+        width: 100%;
+        
+      }
+    </style>
+  </head>
+  <body style="font-family: 'Roboto'">
+    <!-- Start: BODY -->
+    <nav class="side-nav">
+        <ul>
+          <li>Tour </li>
+          <li>Product</li>
+          <li>Features</li>
+          <li>Enterprise</li>
+          <li>Support</li>
+          <li>Pricing</li>
+          <li>Cart</li>
+        </ul>
+    </nav>
+    <div class="display">
+      
+      <div class="display-1">
+        <div class="flex-1">
+        <div class="mobile-1">
+          <div class="box-1"></div>
+        </div>
+        <div class="mobile-2">
+          <div class="box-1"></div>
+        </div>
+        
+        </div>
+        
+       
+      </div>
+      <div class="content-page">
+        <h4 style="font-weight: 500;">Punny headline</h4>
+        <p>And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.
+
+        </p>
+        <div class="button">
+          <p>comming soon</p>
+        </div>
+
+    </div>
+    <div class="display-2">
+    <div class="flex-1">
+      <div class="small-box" style=background-color:#BDBDBD;>
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color:#424242;"></div>
+      </div>
+      <div class="small-box" style="background-color:#424242">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color:#BDBDBD"></div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <div class="small-box" style="background-color: #00B8D4;">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color: #84FFFF;"></div>
+      </div>
+      <div class="small-box" style="background-color:#BDBDBD">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color:#424242"></div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <div class="small-box" style="background-color:#BDBDBD">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color: #ffffff;"></div>
+      </div>
+      <div class="small-box" style="background-color: #33691E;">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color: #DCEDC8;"></div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <div class="small-box" style="background-color:#BDBDBD ;">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1" style="background-color: #424242;"></div>
+      </div>
+      <div class="small-box">
+        <h4>Another headline</h4>
+        <p>And an even wittier subheading.</p>
+        <div class="small-box1"></div>
+      </div>
+    </div>
+    <footer class="footer-1 flex-2">
+      <div class="footer-content">
+        <h4>Features</h4>
+        <p>Cool stuff</p>
+        <p> Stuff for developers</p>
+        <p>Another one</p>
+        <p> Last time</p>
+      </div>
+      <div class="footer-content">
+        <h4>Features</h4>
+        <p>Cool stuff</p>
+        <p> Random feature</p>
+        <p>Team feature</p>
+        <p> Last time</p>
+      </div>
+      <div class="footer-content">
+        <h4>Features</h4>
+        <p>Cool stuff</p>
+        <p> Random feature</p>
+        <p>Team feature</p>
+        <p> Stuff for developers</p>
+        <p>Another one</p>
+        <p> Last time</p>
+      </div>
+      <div class="footer-content">
+        <h4>Features</h4>
+        <p>Cool stuff</p>
+        <p> Random feature</p>
+        <p>Team feature</p>
+        <p> Stuff for developers</p>
+      </div>
+    </footer>
+</div>
+   
+
+    <!-- End: BODY -->
+</body>
+</html>
