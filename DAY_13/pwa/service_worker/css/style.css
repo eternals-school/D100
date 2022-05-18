@@ -1,0 +1,43 @@
+body {
+  background: #242323;
+  font-family: Arial;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  background: rgb(31, 223, 100);
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+  padding: 8px;
+}
+
+main {
+  padding: 2rem;
+}
+
+nav {
+  background: #444;
+  padding: 0.4px 4px; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .current > a {
+  color: rgb(0, 223, 114);
+}
+p,h2,h3 {
+  color:rgb(188, 188, 188)
+}
